@@ -33,7 +33,7 @@ config = cam.create_video_configuration(main={"size": (1280, 720), "format": "RG
 cam.configure(config)
 cam.start()
 
-face_cascade = cv2.CascadeClassifier("/home/pi/haarcascade_frontalface_default.xml")
+face_cascade = cv2.CascadeClassifier("/home/pi/haarcascade_default.xml")
 
 frame_count = 0
 start_time = time.time()
