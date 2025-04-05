@@ -16,14 +16,7 @@ import time
 import board
 import neopixel_spi as neopixel
 
-firebaseConfig = {'apiKey': " AIzaSyB4lIjFLY2AY9tbKafF8Ss_Zz0Jhf9UYVU",
-'authDomain': "helmet-e424f.firebaseapp.com",
-'databaseURL': "https://helmet-e424f.firebaseio.com",
-'projectId': "helmet-e424f",
-'storageBucket': "helmet-e424f.appspot.com",
-'messagingSenderId': "534090770089",
-'appId': "1:534090770089:web:f27c86341b3daa7f306bb8",
-'measurementId': "G-D5XJE1GWLS"}
+firebaseConfig = {...}
 
 firebase = pyrebase.initialize_app(firebaseConfig)
 storage = firebase.storage()
